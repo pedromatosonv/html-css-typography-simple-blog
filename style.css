@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    margin: 1.25em 0 1em 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.lead {
+    font-family: serif;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+img {
+    max-height: 320px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin: 1.5em 0;
+}
+
+li {
+    line-height: 1.5em;
+    list-style: circle;
+    margin-left: 1.5em;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4.209rem;
+    }
+
+    h2 {
+        font-size: 3.157rem;
+    }
+
+    h3 {
+        font-size: 2.369rem;
+    }
+
+    .lead {
+        font-size: 2.5rem;
+    }
+}
