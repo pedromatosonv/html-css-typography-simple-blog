@@ -1,0 +1,9 @@
+/* set box-sizing to border-box */
+html { box-sizing: border-box }
+*, *::before, *::after { box-sizing: inherit }
+
+/* set font-size to 62.5% */
+html { font-size: 62.5% }
+body { font-size: 1.6rem }
+
+/* other styles */
